@@ -11,16 +11,16 @@ import javax.swing.*;
 
 
 public class Lotto extends JFrame implements ActionListener{
-    //bootstrap-ish elements
+    //Top panel elements
+
+    //image
     ClassLoader loader= this.getClass().getClassLoader();
     java.net.URL iconURL = loader.getResource("lotto.png");
     ImageIcon icon = new ImageIcon(iconURL);
-
-    //top panel elements
     JLabel image= new JLabel(icon);
 
     JLabel gameTitle = new JLabel( "Lotto Numbers");
-    JLabel txt = new JLabel( "");
+    JLabel txt = new JLabel( ""); //where the numbers will pop up
 
     //buttons for bottom panel
     JButton powerBallButton = new JButton("Powerball");
@@ -29,7 +29,7 @@ public class Lotto extends JFrame implements ActionListener{
     JButton lotto47Button = new JButton("Lotto 47");
     JButton luckyForLifeButton = new JButton("Lucky for Life");
 
-    //creation of UI stuff
+    //creation of panels
     JPanel imagePanel = new JPanel();
     JPanel titlePanel = new JPanel();
     JPanel topPanel = new JPanel();
@@ -63,7 +63,6 @@ public class Lotto extends JFrame implements ActionListener{
         luckyForLifeButton.addActionListener(this);
 
 
-
         //image panel
         imagePanel.setBounds(0,0,750,200);
         imagePanel.setLayout(new GridBagLayout());
@@ -72,7 +71,6 @@ public class Lotto extends JFrame implements ActionListener{
         gameTitle.setFont(new Font("Arial", Font.BOLD, 20));
         titlePanel.setBounds(0,200,750,100);
         titlePanel.setLayout(new GridBagLayout());
-
         txt.setFont(new Font("Arial", Font.PLAIN, 16));
 
         //top panel size and layout
@@ -94,7 +92,6 @@ public class Lotto extends JFrame implements ActionListener{
 
         //adding elements to panels
         imagePanel.add(image);
-
         imagePanel.repaint();
         titlePanel.add(gameTitle);
         topPanel.add(txt);
@@ -104,7 +101,6 @@ public class Lotto extends JFrame implements ActionListener{
         bottomPanel.add(fantasy5Button);
         bottomPanel.add(lotto47Button);
         bottomPanel.add(luckyForLifeButton);
-        luckyForLifeButton.setAlignmentX(Component.CENTER_ALIGNMENT);
 
         //adding panels to JFrame
         frame.add(imagePanel);
@@ -114,12 +110,15 @@ public class Lotto extends JFrame implements ActionListener{
 
     }
 
+    //method looks at picking pick1 amount of numbers at random from 1 and maxArray1 number
     String mainNumbersAndMultiplier(Integer maxArray1, Integer pick1) {
         ArrayList mainNumbers;
         mainNumbers = getNumberArray(maxArray1);
         String outputMainNumbers = getNumbers(mainNumbers, pick1);
         return outputMainNumbers;
     }
+
+    //method looks at picking pick1 amount of numbers at random from 1 and maxArray1 number AND the same for pick2 and MaxArray2
     String mainNumbersAndMultiplier(Integer maxArray1, Integer maxArray2, Integer pick1, Integer pick2) {
         ArrayList mainNumbers;
         mainNumbers = getNumberArray(maxArray1);
@@ -132,6 +131,7 @@ public class Lotto extends JFrame implements ActionListener{
         return str;
     }
 
+    //method creates an array from 1 to given maxNum
     static ArrayList getNumberArray(Integer maxNum) {
         ArrayList<Object> numberArray = new ArrayList<>();
 
@@ -140,6 +140,7 @@ public class Lotto extends JFrame implements ActionListener{
         }
         return numberArray;
     }
+    //method shuffles ArrayList numberArray and pulls the num amount of numbers from the top of the ArrayList and returns a string
     String getNumbers(ArrayList numberArray, Integer num) {
         String stringOfNumbers = "";
         Collections.shuffle(numberArray);

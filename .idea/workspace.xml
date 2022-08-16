@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="342695eb-6751-4418-a90f-cdcfc900e1b6" name="Changes" comment="updated multiplier stuff">
-      <change afterPath="$PROJECT_DIR$/src/Lotto.java" afterDir="false" />
+    <list default="true" id="342695eb-6751-4418-a90f-cdcfc900e1b6" name="Changes" comment="contextualize methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lotto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lotto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660619942554</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed bugs, added logo and made it working">
+      <created>1660666861439</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660666861439</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,7 +134,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pushing information; next steps are trying to get it work. then adding on other games" />
     <MESSAGE value="updated multiplier stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated multiplier stuff" />
+    <MESSAGE value="Fixed bugs, added logo and made it working" />
+    <MESSAGE value="contextualize methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="contextualize methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
