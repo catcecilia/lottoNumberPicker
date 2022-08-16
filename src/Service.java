@@ -7,7 +7,7 @@ public class Service {
         fiveNumbers = Model.getNumberArray(69);
         String outputFiveNumbeers = getNumbers(fiveNumbers, 5);
 
-        ArrayList multiplierNumber= Model.getNumberArray(1);
+        ArrayList multiplierNumber= Model.getNumberArray(26);
         String outputMultiplierNumbeer = getNumbers(multiplierNumber, 5);
 
         String str = outputFiveNumbeers + " Multiplier:" + outputMultiplierNumbeer;

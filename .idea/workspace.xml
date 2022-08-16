@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="342695eb-6751-4418-a90f-cdcfc900e1b6" name="Changes" comment="">
+    <list default="true" id="342695eb-6751-4418-a90f-cdcfc900e1b6" name="Changes" comment="Pushing information; next steps are trying to get it work. then adding on other games">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +34,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/javaProjects/lottoNumberPicker/src"
+    "last_opened_file_path": "D:/javaProjects/lottoNumberPicker"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -44,7 +42,7 @@
       <recent name="D:\javaProjects\lottoNumberPicker\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyFrame">
+  <component name="RunManager" selected="Application.UI">
     <configuration name="Lotto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lotto" />
       <module name="lottoNumberPicker" />
@@ -82,8 +80,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyFrame" />
         <item itemvalue="Application.UI" />
+        <item itemvalue="Application.MyFrame" />
         <item itemvalue="Application.Lotto" />
         <item itemvalue="Application.TestMain" />
         <item itemvalue="Application.Main" />
@@ -99,6 +97,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660524953623</updated>
     </task>
+    <task id="LOCAL-00001" summary="Pushing information; next steps are trying to get it work. then adding on other games">
+      <created>1660619504791</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660619504791</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +118,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Pushing information; next steps are trying to get it work. then adding on other games" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pushing information; next steps are trying to get it work. then adding on other games" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -119,15 +129,6 @@
           <properties class="java.lang.IllegalArgumentException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/UI.java</url>
-          <line>36</line>
-          <properties class="UI" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
