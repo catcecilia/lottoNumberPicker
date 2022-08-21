@@ -1,22 +1,27 @@
-![Lottery Number Picker App](https://github.com/catcecilia/mediafiles/blob/master/lottonumpicker.gif)
+<h1 align="center" id="title">Lottery Number Picker</h1>
 
-# Lottery Number Picker Application
+<p align="center"><img src="https://github.com/catcecilia/mediafiles/raw/master/lottonumpicker.gif" alt="project-image"></p>
 
-This random lottery number picker will automatically pick random numbers for you depending on which draw game you want to play (in the state of Michigan).
+<p id="description">A graphic user interface (GUI) application in Java that generates random numbers based on the user-selected draw game.</p>
+
+<p align="center"><img src="https://img.shields.io/badge/Version-v.1.0-blue" alt="shields"></p>
 
 Inspiration and developed from Mike McGrath's idea and code in *Java in easy steps: master the major features.*
 
-## How to use it
-Download the files, run on an IDE.
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. Download</p>
+
+<p>2. Open on your favorite IDE</p>
+
+<p>3. Run static main method</p>
+
+  
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   Java
 
 
-### Draw Games on the application
-- **PowerBall** Pick 5 white balls with numbers between 1 and 69. Pick 1 red ball with a number between 1 and 26.
-- **Mega Millions** Pick 5 white balls with numbers between 1 and 70. Pick 1 gold ball with a number between 1 and 25.
-- **Fantasy 5** Pick 5 numbers between 1 and 39.
-- **Lotto 47** Pick 6 numbers between 1 and 47.
-- **Lucky for Life** Pick 5 white balls with numbers between 1 and 48. Pick 1 red ball with a number between 1 and 18.
-
-#### Future Goals
-- Standalone executable
-- Making it prettier
